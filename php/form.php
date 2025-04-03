@@ -69,8 +69,8 @@ mail($email_to, $subject, $email_message, $headers)
 
 ?>
 <!-- place your own success html below -->
-<div class="center"><h2>Thanks for contacting us!</h2></div>
-<div class="center"><p>We will get back to you as soon as possible.</p></div>
+<div class="center"><h2>Thanks for contacting me!</h2></div>
+<div class="center"><p>I will get back to you as soon as possible.</p></div>
 <?php
 }
 die();
