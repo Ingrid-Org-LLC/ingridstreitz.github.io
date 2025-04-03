@@ -294,7 +294,7 @@
                     </div>
                     
                     <div class="video">
-                      <h4 class="center">Make You Feel My Love</h4>
+                      <h4 class="center">Make You Feel My Love; Bob Dylan Tribute Show at the Englert</h4>
                       <div class="youtube-player" data-id="cNPVHmmpLZA"></div>
                     </div>
                   </div>
@@ -436,9 +436,35 @@
           </div>
         </form>
 -->
-        <div class="contact-email">
-            <p>You can reach me at <a href="mailto:ingridstreitz@gmail.com">ingridstreitz@gmail.com</a></p>
-        </div> 
+		<!-- modify this form HTML and place wherever you want your form -->
+		<form id="contacts" name="htmlform" method="post" action="https://formspree.io/f/xpwpylvd">
+			<div class="form_settings">
+			  <input class="name" type="text" name="name" placeholder="Name" required />
+			  <input class="email" type="email" name="email" placeholder="Email" required />
+			  <input class="subject" type="text" name="subject" placeholder="Subject" required />
+			  
+			  <div class="optional_fields">
+				<div class="optional_field">
+				  <label for="event_date">Event Date (Optional)</label>
+				  <input id="event_date" class="date" type="date" name="event_date" />
+				</div>
+				
+				<div class="optional_field">
+				  <label for="event_location">Event Location (Optional)</label>
+				  <input id="event_location" class="location" type="text" name="event_location" placeholder="Location" />
+				</div>
+			  </div>
+			  
+			  <textarea class="message" rows="4" cols="50" name="message" placeholder="Message" required></textarea>
+			  <div>
+				<button type="submitformspree">SUBMIT</button>
+			  </div>
+			</div>
+		  </form>
+		  
+		  <div class="contact-email">
+			<p>You can also reach me at <a href="mailto:ingridstreitz@gmail.com">ingridstreitz@gmail.com</a></p>
+		  </div>
 
 	</div>
 	</div>
