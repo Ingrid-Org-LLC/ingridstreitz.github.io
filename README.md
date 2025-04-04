@@ -9,4 +9,3 @@ More information about Formspree [here](https://dev.to/charalambosioannou/create
 The tutorial for the custom domain can be found [here](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site).
 
 The domain is being rented from [NameCheap](https://ap.www.namecheap.com/Domains/DomainControlPanel/ingridstreitz.com/advancedns).
-
