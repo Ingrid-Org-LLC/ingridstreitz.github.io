@@ -904,7 +904,7 @@ ul.pages-music li a {
 
 .hero {
 	background-image: url("../pictures/ingrid_pics/main_pic.jpg");
-	height: 900px;
+	height: 700px;
 	z-index: 100;
 	margin-bottom: -46px;
 	border-bottom: .2em solid #333a56;
@@ -925,7 +925,7 @@ ul.pages-music li a {
 }
 
 #overlay {
-    height: 900px;
+    height: 700px;
 }
 
 #music-overlay {
@@ -942,7 +942,7 @@ ul.pages-music li a {
 	width: 80%;
 	text-align: center;
 	position: absolute;
-	top: 61%;
+	top: 75%;
 	left: 50%;
 	transform: translate(-50%, -42%);
 	color: white;
