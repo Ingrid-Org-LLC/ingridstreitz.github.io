@@ -193,6 +193,16 @@ header, .container-scrolled {
 	top: 0;
 }
 
+/* Sticky navigation bar */
+nav.container {
+    position: sticky;
+    top: 0; /* Sticks to the top of the viewport */
+    z-index: 1000; /* Ensures it stays above other elements */
+    background-color: #e8e8e8; /* Matches the current nav background */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow for better visibility */
+}
+
+
 /* Nav container to center and set width */
 .container {
 	margin: 0 auto;
@@ -904,7 +914,7 @@ ul.pages-music li a {
 
 .hero {
 	background-image: url("../pictures/ingrid_pics/main_pic.jpg");
-	height: 700px;
+	height: 900px;
 	z-index: 100;
 	margin-bottom: -46px;
 	border-bottom: .2em solid #333a56;
@@ -925,7 +935,7 @@ ul.pages-music li a {
 }
 
 #overlay {
-    height: 700px;
+    height: 900px;
 }
 
 #music-overlay {
@@ -942,7 +952,7 @@ ul.pages-music li a {
 	width: 80%;
 	text-align: center;
 	position: absolute;
-	top: 75%;
+	top: 61%;
 	left: 50%;
 	transform: translate(-50%, -42%);
 	color: white;

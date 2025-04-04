@@ -1,6 +1,6 @@
 # Ingrid Streitz's Musician Webpage
 
-Credit to the website template to this [repo](https://github.com/waldronmatt/musicWebTemplate).
+Credit to the website template from this [repo](https://github.com/waldronmatt/musicWebTemplate).
 
 Forms are sent to https://formspree.io/forms/xpwpylvd/overview.
 
