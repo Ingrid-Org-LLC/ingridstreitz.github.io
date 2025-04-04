@@ -42,7 +42,7 @@ $(window).scroll(function bind(){
 });
 
 $(function() {
-  $('a[href*="#"]:not([href="#"])').click(function smooth(event) {
+  $('a[href*="#"]').not('a[href="#"]').click(function smooth(event) {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
