@@ -1225,6 +1225,16 @@ td, th {
 	padding: 10px;
 }
 
+/* Center the video in the second row */
+.center-video {
+justify-content: center;
+}
+
+.center-video > div {
+width: 50%;
+padding: 10px;
+}
+
 }
 
 @media screen and (min-width: 1024px) {
