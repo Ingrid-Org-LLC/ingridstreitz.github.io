@@ -106,7 +106,7 @@ header {
 .anchor-box {
 	background-color: transparent;
 	background-color: #333a56; 
-	color: #291616; 
+	color: #ffffff; 
 	margin-right: -21px;
 	margin-left: -21px;
 }
@@ -1013,6 +1013,10 @@ ul.pages-music li a {
 		padding: 0.6em 0.8em;
 	}
 	
+	#logo h2 {
+		font-size: 0.8em; /* Adjust this value to make it smaller on mobile */
+		letter-spacing: 0.05em; /* Reduce from the desktop value */
+	  }
 	}
 
 /******************************************************************************************/
