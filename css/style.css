@@ -1332,66 +1332,6 @@ div li.hide {
 
 }
 
-.a {
-	background-image: url("../pictures/gallery/light-show.jpg");
-	background-size: cover;
-}
-
-.b {
-	background-image: url("../pictures/gallery/synth.jpg");
-	background-size: cover;
-}
-
-.c {
-	background-image: url("../pictures/gallery/singing.jpg");
-	background-size: cover;
-}
-
-.d {
-	background-image: url("../pictures/gallery/guitar.jpg");
-	background-size: cover;
-}
-
-.e {
-	background-image: url("../pictures/gallery/bass.jpg");
-	background-size: cover;
-}
-
-.f {
-	background-image: url("../pictures/gallery/concert.jpg");
-	background-size: cover;
-}
-
-.g {
-  	background-image: url("../pictures/blog/song.jpg");
-  	background-size: cover;
-}
-
-.h {
-  	background-image: url("../pictures/blog/edm.jpg");
-  	background-size: cover;
-}
-
-.i {
-  	background-image: url("../pictures/blog/eq.jpg");
-  	background-size: cover;
-}
-
-.j {
-  	background-image: url("../pictures/merch/logo.jpg");
-  	background-size: cover;
-}
-
-.k {
-  	background-image: url("../pictures/merch/thankful.jpg");
-  	background-size: cover;
-}
-
-.l {
-  	background-image: url("../pictures/merch/peace.jpg");
-  	background-size: cover;
-}
-
 .m {
 	background-image: url("../pictures/ingrid_pics/pretty_girl.jpg");
 	background-size: cover;
@@ -1420,6 +1360,20 @@ div li.hide {
 .r {
   	background-image: url("../pictures/ingrid_pics/iowa.jpg");
   	background-size: cover;
+}
+.s {
+	background-image: url("../pictures/ingrid_pics/tent.jpg");
+	background-size: cover;
+}
+
+.t {
+	background-image: url("../pictures/ingrid_pics/live.jpg");
+	background-size: cover;
+}
+
+.u {
+	background-image: url("../pictures/ingrid_pics/live_music.jpg");
+	background-size: cover;
 }
 
 
