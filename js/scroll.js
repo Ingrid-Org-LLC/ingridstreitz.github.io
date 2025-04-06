@@ -37,7 +37,7 @@ $(window).scroll(function bind(){
        // Set/remove active class
        menuItems
          .parent().removeClass("selected")
-         .end().filter("[href=#"+id+"]").parent().addClass("selected");
+         .end().filter("[href='#" + id + "']").parent().addClass("selected");
    }                   
 });
 
