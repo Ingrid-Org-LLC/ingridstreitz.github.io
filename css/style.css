@@ -1375,7 +1375,18 @@ div li.hide {
 	background-image: url("../pictures/ingrid_pics/live_music.jpg");
 	background-size: cover;
 }
-
+.v {
+	background-image: url("../pictures/ingrid_pics/crossed.jpg");
+	background-size: cover;
+}
+.w {
+	background-image: url("../pictures/ingrid_pics/close_up.jpg");
+	background-size: cover;
+}
+.x {
+	background-image: url("../pictures/ingrid_pics/lair_2.jpg");
+	background-size: cover;
+}
 
 @media all and (max-width: 320px) {
 .span {
