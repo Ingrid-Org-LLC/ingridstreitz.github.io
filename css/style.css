@@ -106,7 +106,7 @@ header {
 .anchor-box {
 	background-color: transparent;
 	background-color: #333a56; 
-	color: #fff; 
+	color: #291616; 
 	margin-right: -21px;
 	margin-left: -21px;
 }
@@ -959,38 +959,61 @@ ul.pages-music li a {
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
-#home {
-	padding-top: .5em;
-}
-
-.hero {
-	background-image: url("../pictures/ingrid_pics/main_pic.jpg");
-	height: 320px;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
-	margin-bottom: -56px;
-}
-
-#overlay {
-    position: sticky;
-    width: 100%;
-    height: 320px;
-    background-color: rgba(0,0,0,0.6);
-}
-
-.hero-text {
-  width: 100%;
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-}
-
-}
+	#home {
+		padding-top: .5em;
+	}
+	
+	.hero {
+		background-image: url("../pictures/ingrid_pics/main_pic.jpg");
+		height: 320px;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: relative;
+		margin-bottom: -56px;
+	}
+	
+	#overlay {
+		position: sticky;
+		width: 100%;
+		height: 320px;
+		background-color: rgba(0,0,0,0.6);
+	}
+	
+	.hero-text {
+		width: 80%; /* Slightly reduced width for better spacing */
+		text-align: center;
+		position: absolute;
+		top: 80%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		color: white;
+	}
+	
+	.hero-text h2 { /* Targeting the "Welcome to My Music" text */
+		font-size: 1.0em;
+		margin-bottom: 0.3em;
+	}
+	
+	.pagesbar-music { /* Target the container of the "Click Here" button */
+		margin-bottom: -0.8em; /* More aggressive negative margin */
+	}
+	
+	.pagesbar-music ul.pages-music li a { /* Targeting the "Click Here to Watch" button */
+		font-size: 0.4em;
+		padding: 0.5em 1em;
+	}
+	
+	#go-btm { /* Target the container of the arrow button */
+		margin-top: -0.5em; /* More aggressive negative margin */
+	}
+	
+	#go-btm a.go-btm { /* Targeting the down arrow button */
+		font-size: 0.5em;
+		padding: 0.6em 0.8em;
+	}
+	
+	}
 
 /******************************************************************************************/
 
