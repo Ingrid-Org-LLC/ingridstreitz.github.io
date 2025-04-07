@@ -1239,18 +1239,26 @@ padding: 10px;
 
 @media screen and (min-width: 1024px) {
 
-.flexbox-shows {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+	.flexbox-shows {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center; /* Center rows */
+		max-width: 1200px;
+		margin: 0 auto; /* Center the entire block */
+		gap: 20px; /* Optional: add some spacing between items */
+	}
+	
+	.flexbox-shows > div {
+		flex: 1 1 30%; /* Let it shrink/grow and aim for 3 per row */
+		min-width: 280px;
+		max-width: 30%;
+		padding: 10px;
+		box-sizing: border-box;
+		text-align: center;
+	}
+	
 }
-
-.flexbox-shows > div {
-	min-width: 33%;
-	padding: 10px;
-}
-
-}
+	
 
 @media screen and (min-width: 480px) and (max-width: 1023px) {
 .flexbox-shows {
@@ -1266,6 +1274,27 @@ padding: 10px;
 	
 }
 
+@media screen and (max-width: 479px) {
+	.flexbox-shows {
+	  display: flex;
+	  flex-direction: column;
+	  align-items: stretch;
+	}
+  
+	.flexbox-shows > div {
+	  width: 100%;
+	  border-bottom: 2px solid black;
+	  padding: 20px 10px;
+	  box-sizing: border-box;
+	  text-align: center;
+	}
+  
+	/* Optional: remove border under the last item */
+	.flexbox-shows > div:last-child {
+	  border-bottom: none;
+	}
+  }
+  
 div li.hide { 
 	display:none; 
 }
