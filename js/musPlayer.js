@@ -2,10 +2,10 @@
 document.addEventListener("DOMContentLoaded", theDOMHasLoaded, false);
 
 // array of audio files (stored in a folder called music)
-var files = ["28 (Zach Bryan).mp3", // 0
+var files = ["Make You Feel My Love (Adele).mp3", // 0
 			"Better Than Today (Rhys Lewis).mp3", // 1
-			"Make You Feel My Love (Adele).mp3", // 2
-			"Royals (Lorde).mp3" // 3
+			"Royals (Lorde).mp3", // 2
+			"28 (Zach Bryan).mp3", // 3
 			];
 
 ///////////////////////////////////////////////
