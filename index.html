@@ -37,25 +37,30 @@
 	<script src="js/vid.js"></script>
 	<script src="js/lightbox.js"></script>
 
-    <header>
+    <header>
 		<div id="logo">
 			<h1><a href="index.html">Ingrid Streitz</a></h1>
-		  <h2><a href="index.html">Musician | Mental Health Advocate | Future Dentist</a></h2>
-      </div>
+		  <h2><a href="index.html">Musician | Mental Health Advocate | Future Dentist</a></h2>
+      </div>
 	 </header>
 
 		<nav class="container">
 			<ul class="clearfix" id="cfix">
 				<li class="icon" id="icon">
-					<a href="javascript:void(0);" onclick="myMenu()">☰ Menu</a>
+					<a href="javascript:void(0);" onclick="myMenu()">&#9776; Menu</a>
 				</li>
 				<li>
 					<ul class="scroll" id="scroll">
 						<li><a href="#home">Home</a></li>
 						<li><a href="#about">About</a></li>
+						<!-- <li><a href="#merch">Merch</a></li> -->
+						<!-- <li><a href="#subscribe">Subscribe</a></li> -->
 						<li><a href="#music">Music</a></li>
+						<!-- <li><a href="#ne>ws">News</a></li> -->
+						<!-- <li><a href="#press">Press</a></li> -->
 						<li><a href="#videos">Videos</a></li>
-						<li><a href="#shows">Shows</a></li> <li><a href="#photos">Photos</a></li>
+						<!-- <li><a href="#shows">Shows</a></li> -->
+						<li><a href="#photos">Photos</a></li>
 						<li><a href="#contact">Contact</a></li>
 					</ul>
 				</li>
@@ -76,7 +81,7 @@
 					</ul>	
 				</div>			
 
-				<div id="go-btm"><a href="#about" class="go-btm">▼</a></div>
+				<div id="go-btm"><a href="#about" class="go-btm">&#9660;</a></div>
 			</div>
 		</div>
 	</div>
@@ -110,15 +115,79 @@
 		</ul>
 
 			<p>
-                Hello! I'm Ingrid Streitz, and I play a variety of pop/country music in Minneapolis and Iowa City (where I am from) & strive to help people relax and have a good time!
+                Hello! I'm Ingrid Streitz, and I play a variety of pop/country music in Minneapolis and Iowa City (where I am from) & strive to help people relax and have a good time!
 			</p>
-            <p>
-                I enjoy covering a variety of genres and artists, including Taylor Swift, Jason Mraz, and Bob Dylan. I play pop music and classic songs everyone can enjoy. I often take song requests and have kids come up and sing with me if they are interested.
+            <p>
+                I enjoy covering a variety of genres and artists, including Taylor Swift, Jason Mraz, and Bob Dylan. I play pop music and classic songs everyone can enjoy. I often take song requests and have kids come up and sing with me if they are interested.
 			</p>
+			<!-- <div class="pagesbar">
+				<ul class="pages">
+					<li><a href="javascript:void(0);" onclick="hideText()">Read Bio</a></li>
+					<li class="hide" id="about-text">
+						<p>Welcome to my page! Here's a little about me: I'm a guitar player and singer from Iowa City. I enjoy covering a variety of genres and artists, including Taylor Swift, Jason Mraz, and Bob Dylan. I play pop music and classic songs everyone can enjoy. I strive to create a relaxing and fun atmosphere and have a good time! I often take song requests and have kids come up and sing with me if they are interested.
+						</p>
+						
+						<!-- <div id="read-bio">
+						</div> -->
+					<!-- </li>
+				</ul>	
+			</div> -->
+
+		<!-- Merch Section -->
+		<!-- <div class="anchor-box">
+			<hr class="horizontal" />
+			<section id="merch">
+			<h3 class="anchor">Merch</h3>
+			</section>
+			<hr class="horizontal" />
+		</div>
+
+			<ul class="grid">
+				<li class="grid_item span j"><a href="index.html" class="grid_link"><div class="tile">New Lgog Designs</div></a></li>
+				<li class="grid_item span k"><a href="index.html" class="grid_link"><div class="tile">All T-Shirts 20% Off</div></a></li>
+				<li class="grid_item span l"><a href="index.html" class="grid_link"><div class="tile">Women's Apparel</div></a></li>
+			</ul> -->
+
+		<!-- <div class="anchor-box">
+			<hr class="horizontal" />
+			<section id="subscribe">
+			<h3 class="anchor">Subscribe</h3>
+			</section>
+			<hr class="horizontal" />
+		</div>
+		
+			<form id="email-form">
+					<div class="form_settings">
+					<h2>Join our Mailing List</h2>
+					<p>Subscribe to get the latest news, tour dates, and mailing list exclusives</p>
+						<div class="field">
+							<input type="email" name="email" placeholder="jane.doe@gmail.com" required />
+						</div>
+							
+						<div id="myBtn">
+							<div class="field">
+								<input type="button" value="submit" class="submit"/>
+							</div>
+						</div>					
+					</div>
+			</form> -->
+
+			<!-- <div id="myModal" class="modal">
+
+			<div class="modal-content">
+			<span class="close">&times;</span>
+				<div class="center">
+				<p>Thanks for joining our mailing list!</p>
+				<p><a href="https://docs.google.com/spreadsheets/d/1lqfvMxZgZgZkYTMEHQfcmEHSunweDe9XukE-aVWE2PY/edit?usp=sharing" target="blank" >Click here</a> to view the email address you entered.</p>
+				</div>
+			</div> -->
+
+			<!-- </div> -->
+
 			<div id="myError" class="modal">
 
 				<div class="modal-content">
-				<span class="close_error">×</span>
+				<span class="close_error">&times;</span>
 					<div class="center">
 					<p>Invalid email address. Please try again.</p>
 					</div>
@@ -135,14 +204,15 @@
 		</div>
 			<div id="audio-players"></div>
 
-                <div class="anchor-box">
-                    <hr class="horizontal" />
-                    <section id="videos">
-                      <h3 class="anchor">Videos</h3>
-                    </section>
-                    <hr class="horizontal" />
-                </div>
+                <div class="anchor-box">
+                    <hr class="horizontal" />
+                    <section id="videos">
+                      <h3 class="anchor">Videos</h3>
+                    </section>
+                    <hr class="horizontal" />
+                </div>
 
+				<!-- First row with 2 videos -->
 				<div class="flexbox-video">
 					<div class="video">
 					<h4 class="center">Bob Dylan Tribute Show at the Englert</h4>
@@ -155,6 +225,7 @@
 					</div>
 				</div>
 
+				<!-- Second row with 1 centered video -->
 				<div class="flexbox-video center-video">
 					<div class="video">
 					<h4 class="center">Ocean Eyes by Billie Eilish</h4>
@@ -163,6 +234,7 @@
 				</div>
 
 
+			<!-- Shows -->
 			<div class="anchor-box">
 			<hr class="horizontal" />
 			<section id="shows">
@@ -173,43 +245,43 @@
 
 			<div class="flexbox-shows">
 
-                <div class="shows-text">
-                        <div class="center"><h4>The Vine Room</h4></div>
-                        <div class="center"><p>Hopkins, MN</p></div>
-                        <div class="center"><p>April 10th | 6 - 8 PM</p></div>
-                </div>
+                <div class="shows-text">
+                        <div class="center"><h4>The Vine Room</h4></div>
+                        <div class="center"><p>Hopkins, MN</p></div>
+                        <div class="center"><p>April 10th | 6 - 8 PM</p></div>
+                </div>
 
-                <div class="shows-text">
-                        <div class="center"><h4>UI Science Thursdays</h4></div>
-                        <div class="center"><p>Iowa City, IA</p></div>
-                        <div class="center"><p>June 5th | 11 AM - 1 PM</p></div>
-                </div>
+                <div class="shows-text">
+                        <div class="center"><h4>UI Science Thursdays</h4></div>
+                        <div class="center"><p>Iowa City, IA</p></div>
+                        <div class="center"><p>June 5th | 11 AM - 1 PM</p></div>
+                </div>
 
-                <div class="shows-text">
-                        <div class="center"><h4>Geneva Golf & Country Club (Private)</h4></div>
-                        <div class="center"><p>Muscatine, IA</p></div>
-                        <div class="center"><p>June 6th | 6 - 8 PM</p></div>
-                </div>
+                <div class="shows-text">
+                        <div class="center"><h4>Geneva Golf & Country Club</h4></div>
+                        <div class="center"><p>Muscatine, IA</p></div>
+                        <div class="center"><p>June 6th | 6 - 8 PM</p></div>
+                </div>
 
-                <div class="shows-text">
-                        <div class="center"><h4>Iowa Arts Festival</h4></div>
-                        <div class="center"><p>Iowa City, IA</p></div>
-                        <div class="center"><p>June 8th | 2 - 3 PM</p></div>
-                </div>
+                <div class="shows-text">
+                        <div class="center"><h4>Iowa Arts Festival</h4></div>
+                        <div class="center"><p>Iowa City, IA</p></div>
+                        <div class="center"><p>June 8th | 2 - 3 PM</p></div>
+                </div>
 
-                <div class="shows-text">
-                        <div class="center"><h4>UI Science Thursdays</h4></div>
-                        <div class="center"><p>Iowa City, IA</p></div>
-                        <div class="center"><p>August 14th | 11 AM - 1 PM</p></div>
-                </div>
+                <div class="shows-text">
+                        <div class="center"><h4>UI Science Thursdays</h4></div>
+                        <div class="center"><p>Iowa City, IA</p></div>
+                        <div class="center"><p>August 14th | 11 AM - 1 PM</p></div>
+                </div>
 
 				
- 		<div class="shows-text">
-                        <div class="center"><h4>Good Makers Market</h4></div>
-                        <div class="center"><p>Tipton, IA</p></div>
-                        <div class="center"><p>August 30th | Time TBD</p></div>
-
-            </div>
+ 		<div class="shows-text">
+                        <div class="center"><h4>Good Makers Market</h4></div>
+                        <div class="center"><p>Tipton, IA</p></div>
+                        <div class="center"><p>August 30th | Time TBD</p></div>
+		</div>
+            </div>
 
 
 			<div class="anchor-box">
@@ -221,7 +293,7 @@
 			</div>
 
 			<ul class="grid">
-			    <li class="grid_item span m"><a href="pictures/ingrid_pics/pretty_girl.jpg" class="grid_link" data-lightbox="pics" data-title=""></a></li>
+			    <li class="grid_item span m"><a href="pictures/ingrid_pics/pretty_girl.jpg" class="grid_link" data-lightbox="pics" data-title=""></a></li>
 				<li class="grid_item span n"><a href="pictures/ingrid_pics/mic.jpg" class="grid_link" data-lightbox="pics" data-title=""></a></li>
 				<li class="grid_item span o"><a href="pictures/ingrid_pics/cph.jpg" class="grid_link" data-lightbox="pics" data-title=""></a></li>
 				<li class="grid_item span p"><a href="pictures/ingrid_pics/winery.jpg" class="grid_link" data-lightbox="pics" data-title=""></a></li>
@@ -242,34 +314,48 @@
 			</section>
 			<hr class="horizontal" />
 		</div>
+		<!--
+		<form id="contacts" name="htmlform" method="post">
+          <div class="form_settings">
+            <input class="name" type="text" name="name" placeholder="Name" required />
+            <input class="email" type="email" name="email" placeholder="Email" required />
+			<input class="subject" type="text" name="subject" placeholder="Subject" required />
+            <textarea class="message" rows="4" cols="50" name="message" placeholder="Message" required></textarea>
+			<div>
+            <input class="submit" type="submit" name="contact_submitted" value="submit" />
+			</div>
+          </div>
+        </form>
+-->
+		<!-- modify this form HTML and place wherever you want your form -->
 		<form id="contacts" name="htmlform" method="post" action="https://formspree.io/f/mrbpoyaq">
 			<div class="form_settings">
-			  <input class="name" type="text" name="name" placeholder="Name" required />
-			  <input class="email" type="email" name="email" placeholder="Email" required />
-			  <input class="subject" type="text" name="subject" placeholder="Subject" required />
+			  <input class="name" type="text" name="name" placeholder="Name" required />
+			  <input class="email" type="email" name="email" placeholder="Email" required />
+			  <input class="subject" type="text" name="subject" placeholder="Subject" required />
 
-			  <div class="optional_fields">
+			  <div class="optional_fields">
 				<div class="optional_field">
-				  <label for="event_date">Event Date (Optional)</label>
-				  <input id="event_date" class="date" type="date" name="event_date" />
+				  <label for="event_date">Event Date (Optional)</label>
+				  <input id="event_date" class="date" type="date" name="event_date" />
 				</div>
 
 				<div class="optional_field">
-				  <label for="event_location">Event Location (Optional)</label>
-				  <input id="event_location" class="location" type="text" name="event_location" placeholder="Location" />
+				  <label for="event_location">Event Location (Optional)</label>
+				  <input id="event_location" class="location" type="text" name="event_location" placeholder="Location" />
 				</div>
-			  </div>
+			  </div>
 
-			  <textarea class="message" rows="4" cols="50" name="message" placeholder="Message" required></textarea>
-			  <div>
+			  <textarea class="message" rows="4" cols="50" name="message" placeholder="Message" required></textarea>
+			  <div>
 				<button type="submitformspree">SUBMIT</button>
-			  </div>
+			  </div>
 			</div>
-		  </form>
+		  </form>
 
-		  <div class="contact-email">
+		  <div class="contact-email">
 			<p>You can also reach me at <a href="mailto:ingridstreitz@gmail.com">ingridstreitz@gmail.com</a></p>
-		  </div>
+		  </div>
 
 	</div>
 	</div>
